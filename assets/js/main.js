@@ -18,8 +18,6 @@ $(document).ready(function () {
         table.prepend('<tr><td data-field="name"> ' + index.name + ' </td><td data-field="source">' + index.source + '</td><td data-field="desc">' + index.desc + '</td><td><i class="fas fa-pen edit" title="save"></i><i class="fas fa-trash-alt del" title="delete"></i></td></tr>');
     });
 
-    console.log("data", data);
-
     // Add Row
     $("#add").click(function () {
         add();
@@ -36,8 +34,6 @@ $(document).ready(function () {
             //code editing
             data.splice(2);
             delete data[2];
-
-            console.log("datadelete", data);
         });
 
         $(".save").click(function () {
@@ -72,7 +68,6 @@ $(document).ready(function () {
         });
 
         data.push(getCurrentTableData(currentItem));
-        console.log("datanew", data);
     }
 
     function getRow() {
@@ -107,7 +102,6 @@ $(document).ready(function () {
         });
 
         data.push(getCurrentTableData(currentItem));
-        console.log("datanewEdit", data);
     }
 
     // Remove row      

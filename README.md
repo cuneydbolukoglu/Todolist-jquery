@@ -1,5 +1,4 @@
 # Todolist-jquery
-Todolist jQuery
 
-- Live
-https://cuneydbolukoglu.github.io/Todolist-jquery/
+# Live Demo
+http://cuneydbolukoglu.github.io/todolist-jquery

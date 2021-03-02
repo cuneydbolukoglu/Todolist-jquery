@@ -1,4 +1,3 @@
 # Todolist-jquery
 
-# Demo link
-http://cuneydbolukoglu.github.io/todolist-jquery
+- Demo link: http://cuneydbolukoglu.github.io/todolist-jquery
